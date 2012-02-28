@@ -4,12 +4,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "forge"
-  s.version = "0.3.0"
+  s.name = "dubsar-forge"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Andy Adams", "Drew Strojny", "Matt Button"]
-  s.date = "2011-12-09"
+  s.authors = ["Andy Adams", "Drew Strojny", "Matt Button", "Alessandro Scotti"]
+  s.date = "2012-02-28"
   s.description = "A toolkit for bootstrapping and developing WordPress themes."
   s.email = "aadams@jestro.com"
   s.executables = ["forge"]
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
     "bin/forge",
     "features/step_definitions/forge_steps.rb",
     "features/support/env.rb",
-    "forge.gemspec",
+    "dubsar-forge.gemspec",
     "layouts/config/config.tt",
     "layouts/config/stylesheet_header.erb",
     "layouts/default/functions/functions.php.erb",
@@ -70,10 +70,10 @@ Gem::Specification.new do |s|
     "spec/lib/forge/project_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://forge.thethemefoundry.com"
+  s.homepage = "https://github.com/dubsar"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.15"
   s.summary = "A tool for developing wordpress themes"
 
   if s.respond_to? :specification_version then

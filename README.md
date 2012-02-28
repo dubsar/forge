@@ -6,11 +6,13 @@
 
 -----
 
-Current Version: **0.3.0**
+Current Fork Version: **0.0.1**
+
+Added a lib assets folder for imported assets
 
 Install Forge (requires [Ruby](http://www.ruby-lang.org/) and [RubyGems](http://rubygems.org/)):
 
-    $ gem install forge
+    $ gem install dubsar-forge
 
 Create your new theme project:
 

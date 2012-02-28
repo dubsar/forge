@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "forge"
-  gem.homepage = "http://forge.thethemefoundry.com"
+  gem.name = "dubsar-forge"
+  gem.homepage = "https://github.com/dubsar"
   gem.license = "MIT"
   gem.summary = %Q{A tool for developing wordpress themes}
   gem.description = %Q{A toolkit for bootstrapping and developing WordPress themes.}
-  gem.email = "aadams@jestro.com"
-  gem.authors = ["Andy Adams", "Drew Strojny", "Matt Button"]
+  gem.email = "d6r.dubsar@gmail.com"
+  gem.authors = ["Andy Adams", "Drew Strojny", "Matt Button", "Alessandro Scotti"]
   # dependencies defined in Gemfile
   gem.files.include Dir.glob('**/*')
 end
